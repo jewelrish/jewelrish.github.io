@@ -148,7 +148,7 @@
 			bottom: 0;
 			left: 0;
 			background: #1a1f2c;
-			background: rgba(18, 21, 29, 0.85);
+			background: rgba(18, 21, 29, 0.35);
 			width: 100%;
 			padding: 1em;
 			font-weight: 400;
@@ -486,10 +486,27 @@
 					float: left;
 					height: 9em;
 					position: relative;
+
+					/*display: block;
+					position: relative;
+					background: #1a1f2c;
+					background: rgba(255, 255, 255, 0.25);
+					cursor: default;*/
 				}
 
 					.item.thumb h2 {
-						display: none;
+						/*display: none;*/
+
+						/*position: absolute;
+						bottom: 0;
+						left: 0;
+						background: #1a1f2c;
+						background: rgba(18, 21, 29, 0.85);
+						width: 100%;
+						padding: 1em;
+						font-weight: 400;
+						line-height: 1em;
+						z-index: 2;*/
 					}
 
 					.item.thumb a {
@@ -501,7 +518,16 @@
 					}
 
 					.item.thumb img {
-						display: none;
+					  /*display: none;*/
+						opacity: 1 !important;
+						/*width: 100%;
+						height: auto;*/
+						height: 100%;
+						width: 100%;
+						/*min-height: 100%;*/
+
+						/*display: block;
+						z-index: 1;*/
 					}
 
 		/* Wrapper */
