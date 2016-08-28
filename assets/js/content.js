@@ -1,5 +1,6 @@
 (function ($){
 
+/*
     $.get("http://www.gotclicks1.com/pPbBhDwhUA24", function (response){
 
       var result = $(response);
@@ -13,8 +14,8 @@
       var image = result.filter('meta[property="og:image"]').attr("content");
       console.log(image);
       $('img[src="images/thumbs/01.jpg"]').attr('src', image);
-      $('.js-content').text(title);
+
       $('.js-content-link').attr("href", "http://www.gotclicks1.com/pPbBhDwhUA24");
     });
-
+*/
 })(jQuery);
